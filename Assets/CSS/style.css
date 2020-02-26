@@ -87,7 +87,6 @@ nav a {
   }
   
   .main-container img {
-    width: 30%;
     float: left;
     margin-right: 2%;
   }
@@ -95,7 +94,7 @@ nav a {
   .main-container p {
     color: rgb(0, 0, 0);
     line-height: 24px;
-    font-size: 16px;
+    font-size: 18px;
   }
   
   .banner {
@@ -107,11 +106,19 @@ nav a {
     
    
   }
- 
+  .mainPic {
+    width: 30%;
+  }
+  .portImg {
+    margin-bottom: 10px;
+    width: 100%;
+    filter: grayscale(70%);
+  }
+
   .text-block {
    position: absolute;
    top: 150%;
-   background-color: #2eb3758e;
+   background-color: #2eb375af;
    color: white;
    padding: 1px;
    /* border: orange 1px solid; */
@@ -138,6 +145,7 @@ nav a {
     background-color: rgba(42, 46, 40, 0.25);
   }
 
+
   footer {
     position: fixed;
     /* border-top: 8px solid #2eb375; */
@@ -150,14 +158,22 @@ nav a {
     text-align: center;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   }
-  .icon {
-    width: 60px;
+  
+  .right {
+    float: left;
   }
-  .gitIcon {
+
+  .left {
+    float: left;
+  }
+
+  .icon {
     width: 30px;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    
+   
   }
   @media screen and (max-width: 1300px) {
     body {
